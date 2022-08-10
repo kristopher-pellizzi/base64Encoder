@@ -20,10 +20,10 @@ Arguments passed to the tool will be treated as strings to be encoded/decoded.
 Every passed argument will be encoded/decoded, and the tool will print both the passed argument and its encoding/decoding.
 
 ### OPTIONS
-- --input, -i:  specify an input file to be encoded/decoded. Only a single input file is supported.
-- --output, -o: specify an output file. If specified, all output will be redirected to the output file, instead of *stdout*
+- --input, -i *FILE_PATH*:  specify an input file to be encoded/decoded. Only a single input file is supported.
+- --output, -o *FILE_PATH*: specify an output file. If specified, all output will be redirected to the output file, instead of *stdout*
 - --interactive, -t:  the tool will wait for input from *stdin*. Every string passed is encoded/decoded, and its encoding/decoding is printed. To quit the **interactive** mode, just press enter with an empty string.
-- --padding, -p:  allows to specify the character to be used as padding. During decoding, **be sure to specify the correct padding character used by the encoded strings** (DEFAULT: '=')
+- --padding, -p *PADDING_CHAR*:  allows to specify the character to be used as padding. During decoding, **be sure to specify the correct padding character used by the encoded strings** (DEFAULT: '=')
 - --no-padding: if specified, the tool will not generate any padding character during encoding. This option is **ignored** during decoding.
 - --decode, -d: if specified, the tool will execute in **decoding** mode. It will accept encoded strings and will print the corresponding decoding.
 - --no-delimiter: by default, each printed encoded/decoded string is followed by a line containing "=======================" to mark the end of an encoding/decoding. If this delimiter is undesired, this option will disable its printing.
