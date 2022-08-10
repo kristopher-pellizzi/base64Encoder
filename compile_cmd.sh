@@ -1,0 +1,1 @@
+g++ -std=c++11 base64Converter.cpp ArgsParser.cpp Argument.cpp InteractiveInputFunctor.cpp FileInputFunctor.cpp BlockConverter.cpp ANSI_CODES.cpp ConverterEncodeInteractiveCommand.cpp ConverterEncodeFileCommand.cpp ConverterDecodeCommand.cpp ConverterImplementation.cpp ErrorHandler.cpp
