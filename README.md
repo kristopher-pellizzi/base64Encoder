@@ -1,4 +1,4 @@
-# base64Encoder
+# Base64 Encoder/Decoder
 Simple implementation of a base64 encoder and decoder.
 
 ## Build
